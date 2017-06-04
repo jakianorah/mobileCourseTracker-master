@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Course Tracker</string>
+    <string name="intro">Start tracking your courses now.</string>
+    <string name="btn_view_terms">Terms</string>
+    <string name="btn_view_courses">Courses</string>
+    <string name="btn_view_assessments">Assessments</string>
+    <string name="title_activity_view_terms">Terms</string>
+    <string name="title_activity_view_courses">Courses</string>
+    <string name="title_activity_view_assessments">Assessments</string>
+    <string name="main_courses_header">Courses</string>
+    <string name="main_terms_header">Terms</string>
+    <string name="main_assessments_header">Assessments</string>
+    <string name="btn_return_text">Return to Main Menu</string>
+    <string name="btn_add_term_text">Add New Term</string>
+    <string name="action_create">Add</string>
+    <string name="options_add">Add</string>
+    <string name="term_name">Term Name</string>
+    <string name="start_date">Start Date</string>
+    <string name="default_text_date">MM/DD/YYYY</string>
+    <string name="end_date">End Date</string>
+    <string name="btn_save_term">Save Term</string>
+    <string name="default_course_name">COURSE NAME</string>
+    <string name="btn_show_courses">Show Courses for this Term</string>
+    <string name="courses_label">Courses for Term:</string>
+    <string name="default_text_term_name">TERM NAME</string>
+    <string name="course_name">Course Name</string>
+    <string name="anticipated_end_date">Anticipated End Date</string>
+    <string name="course_status">Status</string>
+    <string name="course_mentors_label">Course Mentors:</string>
+    <string name="btn_add_mentor">Add Mentor</string>
+    <string name="btn_save_course">Save Course</string>
+    <string name="name_label">Name</string>
+    <string name="btn_course_detail_view_assessments">View/Add Assessments</string>
+    <string name="btn_course_detail_view_mentors">View/Add Course Mentors</string>
+    <string name="assessments_for_course">Assessments for Course:</string>
+    <string name="assessment_type_label">Assessment Type</string>
+    <string name="default_assessment_type">ASSESSMENT TYPE</string>
+    <string name="due_date_label">Due Date</string>
+    <string name="course_mentors_for_course_label">Course Mentors for Course:</string>
+    <string name="default_mentor_name">MENTOR NAME</string>
+    <string name="default_phone_number">123&#8211;456&#8211;7890</string>
+    <string name="default_text_email">USERNAME@DOMAIN.COM</string>
+    <string name="btn_save_assessment">Save Assessment</string>
+    <string name="phone_numbers_label">Phone Numbers:</string>
+    <string name="work_label">Work</string>
+    <string name="home_label">Home</string>
+    <string name="cell_label">Cell</string>
+    <string name="email_addresses_label">Email Addresses:</string>
+    <string name="other_label">Other</string>
+    <string name="btn_save_mentor">Save</string>
+    <string name="btn_save_note">Save Note</string>
+    <string name="notes_share">Share</string>
+    <string name="view_photos">View Photos</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/ic_images</item>
+        <item>@drawable/ic_view_notes</item>
+        <item>@drawable/ic_view_mentors</item>
+        <item>@drawable/ic_view_assessments</item>
+        <item>@drawable/ic_camera</item>
+        <item>@drawable/ic_content_markunread</item>
+        <item>@drawable/ic_delete</item>
+        <item>@drawable/ic_edit</item>
+        <item>@drawable/ic_status</item>
+        <item>@drawable/ic_images</item>
+        <item>@drawable/ic_view_notes</item>
+        <item>@drawable/ic_view_mentors</item>
+        <item>@drawable/ic_view_assessments</item>
+        <item>@drawable/ic_camera</item>
+        <item>@drawable/ic_content_markunread</item>
+        <item>@drawable/ic_delete</item>
+        <item>@drawable/ic_edit</item>
+        <item>@drawable/ic_status</item>
+        <item>@drawable/ic_images</item>
+        <item>@drawable/ic_view_notes</item>
+        <item>@drawable/ic_view_mentors</item>
+        <item>@drawable/ic_view_assessments</item>
+        <item>@drawable/ic_camera</item>
+        <item>@drawable/ic_content_markunread</item>
+        <item>@drawable/ic_delete</item>
+        <item>@drawable/ic_edit</item>
+        <item>@drawable/ic_status</item>
+    </string-array>
+
+</resources>

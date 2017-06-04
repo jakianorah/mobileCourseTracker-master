@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/svParent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/add_padding"
+        android:id="@+id/rlParent">
+
+        <TextView
+            android:id="@+id/tvCourseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/course_name"/>
+
+        <EditText
+            android:id="@+id/etCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tvCourseName"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/tvCourseStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etCourseStartDate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvCourseName"
+            android:text="@string/start_date"/>
+
+        <EditText
+            android:id="@+id/etCourseStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etCourseEndDate"
+            android:layout_alignStart="@+id/etCourseEndDate"
+            android:layout_below="@+id/etCourseName"
+            android:layout_marginTop="10dp"
+            android:inputType="date"
+            android:text="@string/default_text_date"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cbAddCourseStartDate"
+            android:layout_below="@id/etCourseStartDate"
+            android:layout_alignLeft="@+id/etCourseStartDate"
+            android:layout_alignStart="@+id/etCourseStartDate"
+            android:textSize="12sp"
+            android:text="Reminder"/>
+
+        <TextView
+            android:id="@+id/tvCourseEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etCourseEndDate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cbAddCourseStartDate"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/anticipated_end_date"/>
+
+        <EditText
+            android:id="@+id/etCourseEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cbAddCourseStartDate"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/tvCourseEndDate"
+            android:layout_toRightOf="@+id/tvCourseEndDate"
+            android:inputType="date"
+            android:text="@string/default_text_date"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cbAddCourseEndDate"
+            android:layout_alignLeft="@id/etCourseEndDate"
+            android:layout_alignStart="@id/etCourseEndDate"
+            android:layout_below="@id/etCourseEndDate"
+            android:textSize="12sp"
+            android:text="Reminder"/>
+
+        <TextView
+            android:id="@+id/tvCourseStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/courseStatusSpinner"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/etCourseEndDate"
+            android:layout_marginTop="10dp"
+            android:text="@string/course_status"/>
+
+        <Spinner
+            android:id="@+id/courseStatusSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etCourseEndDate"
+            android:layout_alignStart="@+id/etCourseEndDate"
+            android:layout_below="@+id/cbAddCourseEndDate"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/course_mentors_label"
+        android:id="@+id/tvCourseMentors"
+        android:layout_below="@id/courseStatusSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:id="@+id/llCourseMentorArray"
+            android:layout_below="@+id/tvCourseMentors">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddMentor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/llCourseMentorArray"
+            android:onClick="onClickAddMentor"
+            android:text="@string/btn_add_mentor"/>
+
+        <Button
+            android:id="@+id/btnSaveCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/btnAddMentor"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickSaveCourse"
+            android:text="@string/btn_save_course"/>
+
+    </RelativeLayout>
+
+</ScrollView>

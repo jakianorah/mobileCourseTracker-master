@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="67129994774428"
+    token="-2265080936033406257" >
+
+    <task
+        name="javac"
+        duration="742" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="296" />
+    <task
+        name="verifier"
+        duration="67" />
+
+    <artifact
+        location="/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="67129994774428" >
+        <artifact
+            location="/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/view_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvViewAssessmentNameLabel"
+        android:text="Assessment Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/view_detail_indent"
+        android:layout_marginStart="@dimen/view_detail_indent"
+        android:id="@+id/tvViewAssessmentName"
+        android:text="ASSESSMENT NAME"
+        android:layout_below="@id/tvViewAssessmentNameLabel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/normal_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/assessment_type_label"
+        android:id="@+id/tvViewAssessmentTypeLabel"
+        android:layout_below="@id/tvViewAssessmentName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/view_detail_indent"
+        android:layout_marginStart="@dimen/view_detail_indent"
+        android:text="@string/default_assessment_type"
+        android:id="@+id/tvViewAssessmentType"
+        android:layout_below="@id/tvViewAssessmentTypeLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/normal_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/due_date_label"
+        android:id="@+id/tvAddAssessmentDueDateLabel"
+        android:layout_below="@+id/tvViewAssessmentType"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/view_detail_indent"
+        android:layout_marginStart="@dimen/view_detail_indent"
+        android:text="@string/default_text_date"
+        android:id="@+id/tvViewAssessmentDueDate"
+        android:layout_below="@+id/tvAddAssessmentDueDateLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/normal_text"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:id="@+id/llNotesIcon"
+        android:layout_below="@id/tvViewAssessmentDueDate">
+
+        <ImageView
+            android:layout_width="@dimen/icon_dimen"
+            android:layout_height="@dimen/icon_dimen"
+            android:id="@+id/ivCourseDetailNotes"
+            android:src="@drawable/ic_view_notes"
+            android:clickable="true"
+            android:contentDescription="Notes icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/icon_dimen"
+            android:text="View Notes"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/tvCourseDetailNotesLabel"
+            android:paddingLeft="5dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

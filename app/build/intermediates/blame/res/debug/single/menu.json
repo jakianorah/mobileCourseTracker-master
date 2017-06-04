@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_coursementor_list.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_coursementor_list.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_assessment_list_context.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_assessment_list_context.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_course_list_context.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_course_list_context.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_term_list_context.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_term_list_context.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_assessment_detail.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_assessment_detail.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_coursementor_list_context.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_coursementor_list_context.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_course_list.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_course_list.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_term_detail.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_term_detail.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_course_detail.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_course_detail.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_note_list.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_note_list.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_note_add.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_note_add.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_assessment_list.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_assessment_list.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_term_list.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_term_list.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_note_list_context.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_note_list_context.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_coursementor_detail.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_coursementor_detail.xml"
+    },
+    {
+        "merged": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/res/merged/debug/menu/menu_photo_detail.xml",
+        "source": "/Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/res/menu/menu_photo_detail.xml"
+    }
+]

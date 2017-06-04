@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/view_padding">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/name_label"
+            android:id="@+id/tvCourseDetailNameLabel"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/view_detail_indent"
+            android:layout_marginStart="@dimen/view_detail_indent"
+            android:id="@+id/tvCourseDetailName"
+            android:text="@string/default_course_name"
+            android:layout_below="@+id/tvCourseDetailNameLabel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/normal_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/start_date"
+            android:id="@+id/tvCourseDetailStartDateLabel"
+            android:layout_below="@+id/tvCourseDetailName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="@dimen/view_detail_indent"
+            android:layout_marginStart="@dimen/view_detail_indent"
+            android:id="@+id/tvCourseDetailStartDate"
+            android:text="@string/default_text_date"
+            android:layout_below="@+id/tvCourseDetailStartDateLabel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/normal_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/anticipated_end_date"
+            android:id="@+id/tvCourseDetailEndDateLabel"
+            android:layout_below="@+id/tvCourseDetailStartDate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/view_detail_indent"
+            android:layout_marginStart="@dimen/view_detail_indent"
+            android:id="@+id/tvCourseDetailEndDate"
+            android:text="@string/default_text_date"
+            android:layout_below="@+id/tvCourseDetailEndDateLabel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/normal_text"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/llStatusIcon"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/llMentorIcon"
+            android:layout_below="@+id/tvCourseDetailEndDate">
+
+            <ImageView
+                android:layout_width="@dimen/icon_dimen"
+                android:layout_height="@dimen/icon_dimen"
+                android:id="@+id/ivCourseDetailStatus"
+                android:src="@drawable/ic_status"
+                android:clickable="true"
+                android:contentDescription="Status icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_dimen"
+                android:text="In progress"
+                android:textSize="@dimen/label_text_size"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/tvCourseDetailStatusLabel"
+                android:paddingLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/llAssessmentIcon"
+            android:layout_toRightOf="@+id/llStatusIcon"
+            android:layout_alignTop="@+id/llStatusIcon">
+
+            <ImageView
+                android:layout_width="@dimen/icon_dimen"
+                android:layout_height="@dimen/icon_dimen"
+                android:id="@+id/ivCourseDetailAssessment"
+                android:src="@drawable/ic_view_assessments"
+                android:clickable="true"
+                android:contentDescription="Assessments icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_dimen"
+                android:text="Assessment(s)"
+                android:textSize="@dimen/label_text_size"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/tvCourseDetailAssessmentLabel"
+                android:paddingLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="25dp"
+            android:paddingRight="25dp"
+            android:orientation="horizontal"
+            android:id="@+id/llMentorIcon"
+            android:layout_below="@+id/llStatusIcon">
+
+            <ImageView
+                android:layout_width="@dimen/icon_dimen"
+                android:layout_height="@dimen/icon_dimen"
+                android:id="@+id/ivCourseDetailMentor"
+                android:src="@drawable/ic_view_mentors"
+                android:clickable="true"
+                android:contentDescription="Mentors icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_dimen"
+                android:text="Mentor(s)"
+                android:textSize="@dimen/label_text_size"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/tvCourseDetailMentorLabel"
+                android:paddingLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/llNotesIcon"
+            android:layout_toRightOf="@+id/llMentorIcon"
+            android:layout_alignTop="@+id/llMentorIcon">
+
+            <ImageView
+                android:layout_width="@dimen/icon_dimen"
+                android:layout_height="@dimen/icon_dimen"
+                android:id="@+id/ivCourseDetailNotes"
+                android:src="@drawable/ic_view_notes"
+                android:clickable="true"
+                android:contentDescription="Notes icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_dimen"
+                android:text="Notes"
+                android:textSize="@dimen/label_text_size"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/tvCourseDetailNotesLabel"
+                android:paddingLeft="5dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

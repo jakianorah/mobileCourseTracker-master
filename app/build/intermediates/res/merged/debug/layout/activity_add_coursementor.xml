@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/add_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvCMName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/name_label"/>
+
+        <EditText
+            android:id="@+id/etCMName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCMName"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/tvPhoneLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/etCMName"
+            android:layout_marginTop="10dp"
+            android:text="@string/phone_numbers_label"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvWorkPhoneLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tvPhoneLabel"
+            android:layout_alignBaseline="@+id/etWorkPhone"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/work_label"/>
+
+        <EditText
+            android:id="@+id/etWorkPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvPhoneLabel"
+            android:layout_toRightOf="@id/tvWorkPhoneLabel"
+            android:layout_toEndOf="@+id/tvWorkPhoneLabel"
+            android:ems="10"
+            android:inputType="phone"/>
+
+        <TextView
+            android:id="@+id/tvHomePhoneLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_label"
+            android:layout_alignBaseline="@+id/etHomePhone"
+            android:layout_alignTop="@+id/etHomePhone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:id="@+id/etHomePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/etWorkPhone"
+            android:layout_alignStart="@id/etWorkPhone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/etWorkPhone"
+            android:layout_toRightOf="@id/tvHomePhoneLabel"
+            android:layout_toEndOf="@+id/tvHomePhoneLabel"
+            android:ems="10"
+            android:inputType="phone"/>
+
+        <TextView
+            android:id="@+id/tvCellPhoneLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etCellPhone"
+            android:text="@string/cell_label"
+            android:layout_below="@+id/etHomePhone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:id="@+id/etCellPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/etWorkPhone"
+            android:layout_alignStart="@id/etWorkPhone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/etHomePhone"
+            android:layout_toRightOf="@id/tvCellPhoneLabel"
+            android:layout_toEndOf="@+id/tvCellPhoneLabel"
+            android:ems="10"
+            android:inputType="phone"/>
+
+        <TextView
+            android:id="@+id/tvEmailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/etCellPhone"
+            android:layout_marginTop="10dp"
+            android:text="@string/email_addresses_label"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvWorkEmailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tvEmailLabel"
+            android:layout_alignBaseline="@+id/etEmailWork"
+            android:text="@string/work_label"/>
+
+        <EditText
+            android:id="@+id/etEmailWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/etWorkPhone"
+            android:layout_alignStart="@+id/etWorkPhone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvEmailLabel"
+            android:layout_toRightOf="@id/tvWorkEmailLabel"
+            android:layout_toEndOf="@id/tvWorkEmailLabel"
+            android:ems="10"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/tvHomeEmailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvWorkEmailLabel"
+            android:layout_alignBaseline="@+id/etHomeEmail"
+            android:text="@string/home_label"/>
+
+        <EditText
+            android:id="@+id/etHomeEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/etWorkPhone"
+            android:layout_alignStart="@id/etWorkPhone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/etEmailWork"
+            android:layout_toRightOf="@id/tvHomeEmailLabel"
+            android:layout_toEndOf="@id/tvHomeEmailLabel"
+            android:ems="10"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/tvOtherEmailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBaseline="@+id/etOtherEmail"
+            android:layout_below="@id/tvHomeEmailLabel"
+            android:text="@string/other_label"/>
+
+        <EditText
+            android:id="@+id/etOtherEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/etWorkPhone"
+            android:layout_alignStart="@id/etWorkPhone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/etHomeEmail"
+            android:layout_toRightOf="@id/tvOtherEmailLabel"
+            android:layout_toEndOf="@id/tvOtherEmailLabel"
+            android:ems="10"
+            android:inputType="textEmailAddress"/>
+
+        <Button
+            android:id="@+id/btnSaveCM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/etOtherEmail"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickSaveMentor"
+            android:text="@string/btn_save_mentor"/>
+    </RelativeLayout>
+</ScrollView>

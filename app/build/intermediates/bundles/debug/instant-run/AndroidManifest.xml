@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jakianorah.coursetracker"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="edu.wgu.aroge35.coursetracker.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewTermListActivity"
+            android:label="@string/title_activity_view_terms"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.MainActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.AddTermActivity"
+            android:label="Add Term"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewTermListActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewTermDetailsActivity"
+            android:label="Term Detail"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewTermListActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.AddCourseActivity"
+            android:label="Add Course"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewTermDetailsActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewCourseListActivity"
+            android:label="Course List"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewTermDetailsActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewCourseDetailActivity"
+            android:label="Course Detail"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewCourseListActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.AddAssessmentActivity"
+            android:label="Add Assessment"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewAssessmentListActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewAssessmentListActivity"
+            android:label="Assessments"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewCourseDetailActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewAssessmentDetailActivity"
+            android:label="Assessment Detail"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewCourseDetailActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.AddCourseMentorActivity"
+            android:label="Add Course Mentor"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.AddCourseActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewCourseMentorListActivity"
+            android:label="Course Mentors"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewCourseDetailActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewCourseMentorDetailActivity"
+            android:label="Course Mentor Detail"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewCourseMentorListActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewNoteListActivity"
+            android:label="Note Taking"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewCourseDetailActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.AddNoteActivity"
+            android:label="Note Editor"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewNoteListActivity" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewPhotoGridActivity"
+            android:label="Photos" />
+        <activity
+            android:name="edu.wgu.aroge35.coursetracker.ViewPhotoActivity"
+            android:label="Photo Detail"
+            android:parentActivityName="edu.wgu.aroge35.coursetracker.ViewPhotoGridActivity" />
+
+        <service android:name="edu.wgu.aroge35.coursetracker.util.NotifyService" />
+    </application>
+
+</manifest>

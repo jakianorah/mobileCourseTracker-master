@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.wgu.aroge35.coursetracker" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewTermListActivity"
+                  android:label="@string/title_activity_view_terms"
+                  android:parentActivityName=".MainActivity"/>
+        <activity android:name=".AddTermActivity"
+                  android:label="Add Term"
+                  android:parentActivityName=".ViewTermListActivity"/>
+        <activity android:name=".ViewTermDetailsActivity"
+                  android:label="Term Detail"
+                  android:parentActivityName=".ViewTermListActivity"/>
+        <activity android:name=".AddCourseActivity"
+                  android:label="Add Course"
+                  android:parentActivityName=".ViewTermDetailsActivity"/>
+        <activity android:name=".ViewCourseListActivity"
+                  android:label="Course List"
+                  android:parentActivityName=".ViewTermDetailsActivity"/>
+        <activity android:name=".ViewCourseDetailActivity"
+                  android:label="Course Detail"
+                  android:parentActivityName=".ViewCourseListActivity"/>
+        <activity android:name=".AddAssessmentActivity"
+                  android:label="Add Assessment"
+                  android:parentActivityName=".ViewAssessmentListActivity"/>
+        <activity android:name=".ViewAssessmentListActivity"
+                  android:label="Assessments"
+                  android:parentActivityName=".ViewCourseDetailActivity"/>
+        <activity android:name=".ViewAssessmentDetailActivity"
+                  android:label="Assessment Detail"
+                  android:parentActivityName=".ViewCourseDetailActivity"/>
+        <activity android:name=".AddCourseMentorActivity"
+                  android:label="Add Course Mentor"
+                  android:parentActivityName=".AddCourseActivity"/>
+        <activity android:name=".ViewCourseMentorListActivity"
+                  android:label="Course Mentors"
+                  android:parentActivityName=".ViewCourseDetailActivity"/>
+        <activity android:name=".ViewCourseMentorDetailActivity"
+                  android:label="Course Mentor Detail"
+                  android:parentActivityName=".ViewCourseMentorListActivity"/>
+        <activity android:name=".ViewNoteListActivity"
+                  android:label="Note Taking"
+                  android:parentActivityName=".ViewCourseDetailActivity"/>
+        <activity android:name=".AddNoteActivity"
+                  android:label="Note Editor"
+                  android:parentActivityName=".ViewNoteListActivity"/>
+        <activity android:name=".ViewPhotoGridActivity"
+                  android:label="Photos"/>
+        <activity android:name=".ViewPhotoActivity"
+                  android:label="Photo Detail"
+                  android:parentActivityName=".ViewPhotoGridActivity"/>
+        <service android:name=".util.NotifyService"/>
+    </application>
+
+</manifest>

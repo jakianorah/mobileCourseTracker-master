@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/add_padding">
+
+        <TextView
+            android:id="@+id/tvAddAssessmentNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Assessment Name"/>
+
+        <EditText
+            android:id="@+id/etAddAssessmentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tvAddAssessmentNameLabel"/>
+
+        <TextView
+            android:id="@+id/tvAddAssessmentTypeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/etAddAssessmentName"
+            android:layout_marginTop="15dp"
+            android:text="@string/assessment_type_label"/>
+
+        <Spinner
+            android:id="@+id/assessmentTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAddAssessmentTypeLabel"/>
+
+        <TextView
+            android:id="@+id/tvAddAssessmentDueDateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/assessmentTypeSpinner"
+            android:layout_marginTop="15dp"
+            android:text="@string/due_date_label"/>
+
+        <EditText
+            android:id="@+id/etAddAssessmentDueDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAddAssessmentDueDateLabel"
+            android:layout_marginTop="5dp"
+            android:inputType="date"
+            android:text="@string/default_text_date"/>
+
+        <Button
+            android:id="@+id/btnAddAssessmentSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/etAddAssessmentDueDate"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickSaveAssessment"
+            android:text="@string/btn_save_assessment"/>
+
+        <CheckBox
+            android:id="@+id/cbAddAssessment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etAddAssessmentDueDate"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/etAddAssessmentDueDate"
+            android:checked="false"
+            android:text="Reminder"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+</ScrollView>

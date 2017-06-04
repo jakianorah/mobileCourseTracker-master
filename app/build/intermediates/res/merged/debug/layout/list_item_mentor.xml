@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/view_padding"
+              android:paddingLeft="@dimen/view_padding"
+              android:paddingRight="@dimen/view_padding"
+              android:paddingBottom="5dp"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvLine1"
+        android:textSize="@dimen/normal_text"
+        android:text="TITLE"
+        android:ellipsize="end"
+        android:singleLine="true"/>
+
+</LinearLayout>

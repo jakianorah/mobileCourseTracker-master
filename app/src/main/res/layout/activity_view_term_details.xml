@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<RelativeLayout
+    android:padding="@dimen/view_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ViewTermDetailsActivity">
+
+    <TextView
+        android:id="@+id/tvViewMentorNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/term_name"/>
+
+    <TextView
+        android:id="@+id/tvViewMentorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/view_detail_indent"
+        android:layout_marginStart="@dimen/view_detail_indent"
+        android:text="@string/default_course_name"
+        android:layout_below="@+id/tvViewMentorNameLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/normal_text"/>
+
+    <TextView
+        android:id="@+id/tvViewCourseStartDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/tvViewMentorName"
+        android:text="@string/start_date"/>
+
+    <TextView
+        android:id="@+id/tvViewCourseStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/view_detail_indent"
+        android:layout_marginStart="@dimen/view_detail_indent"
+        android:text="@string/default_text_date"
+        android:layout_below="@+id/tvViewCourseStartDateLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/normal_text"/>
+
+    <TextView
+        android:id="@+id/tvViewCourseEndDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/end_date"
+        android:layout_below="@+id/tvViewCourseStartDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tvViewCourseEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/view_detail_indent"
+        android:layout_marginStart="@dimen/view_detail_indent"
+        android:text="@string/default_text_date"
+        android:layout_below="@+id/tvViewCourseEndDateLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/normal_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_show_courses"
+        android:id="@+id/btnShowCourses"
+        android:onClick="onClickShowCoursesforTerm"
+        android:layout_below="@+id/tvViewCourseEndDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>
+</ScrollView>

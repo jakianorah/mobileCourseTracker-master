@@ -1,0 +1,202 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:2:1-70:12
+	package
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:6:22-78
+application
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:8:5-68:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:12:9-35
+	android:allowBackup
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:13:9-40
+activity#edu.wgu.aroge35.coursetracker.MainActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:14:9-19:20
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:14:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:17:27-74
+activity#edu.wgu.aroge35.coursetracker.ViewTermListActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:20:9-22:63
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:21:19-68
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:22:19-61
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:20:19-55
+activity#edu.wgu.aroge35.coursetracker.AddTermActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:23:9-25:71
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:24:19-43
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:25:19-69
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:23:19-50
+activity#edu.wgu.aroge35.coursetracker.ViewTermDetailsActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:26:9-28:71
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:27:19-46
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:28:19-69
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:26:19-58
+activity#edu.wgu.aroge35.coursetracker.AddCourseActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:29:9-31:74
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:30:19-45
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:31:19-72
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:29:19-52
+activity#edu.wgu.aroge35.coursetracker.ViewCourseListActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:32:9-34:74
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:33:19-46
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:34:19-72
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:32:19-57
+activity#edu.wgu.aroge35.coursetracker.ViewCourseDetailActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:35:9-37:73
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:36:19-48
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:37:19-71
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:35:19-59
+activity#edu.wgu.aroge35.coursetracker.AddAssessmentActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:38:9-40:77
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:39:19-49
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:40:19-75
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:38:19-56
+activity#edu.wgu.aroge35.coursetracker.ViewAssessmentListActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:41:9-43:75
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:42:19-46
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:43:19-73
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:41:19-61
+activity#edu.wgu.aroge35.coursetracker.ViewAssessmentDetailActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:44:9-46:75
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:45:19-52
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:46:19-73
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:44:19-63
+activity#edu.wgu.aroge35.coursetracker.AddCourseMentorActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:47:9-49:68
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:48:19-52
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:49:19-66
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:47:19-58
+activity#edu.wgu.aroge35.coursetracker.ViewCourseMentorListActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:50:9-52:75
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:51:19-49
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:52:19-73
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:50:19-63
+activity#edu.wgu.aroge35.coursetracker.ViewCourseMentorDetailActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:53:9-55:79
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:54:19-55
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:55:19-77
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:53:19-65
+activity#edu.wgu.aroge35.coursetracker.ViewNoteListActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:56:9-58:75
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:57:19-46
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:58:19-73
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:56:19-55
+activity#edu.wgu.aroge35.coursetracker.AddNoteActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:59:9-61:71
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:60:19-46
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:61:19-69
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:59:19-50
+activity#edu.wgu.aroge35.coursetracker.ViewPhotoGridActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:62:9-63:43
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:63:19-41
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:62:19-56
+activity#edu.wgu.aroge35.coursetracker.ViewPhotoActivity
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:64:9-66:72
+	android:label
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:65:19-47
+	android:parentActivityName
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:66:19-70
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:64:19-52
+service#edu.wgu.aroge35.coursetracker.util.NotifyService
+ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:67:9-54
+	android:name
+		ADDED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml:67:18-52
+uses-sdk
+INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /Users/jakianorah/Desktop/mobileCourseTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jakianorah/Desktop/mobileCourseTracker-master/app/src/main/AndroidManifest.xml
